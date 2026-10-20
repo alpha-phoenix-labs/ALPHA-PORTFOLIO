@@ -4,89 +4,162 @@
 
 ### PERSONAL PROJECTS · AI · AUTOMATION
 
-**Learning by building, experimenting, and figuring things out.**
+**Learning by building. Verifying what works. Documenting what doesn't.**
 
-[![AI](https://img.shields.io/badge/AI-Experiments-8B5CF6?style=for-the-badge)](#topics-i-explore)
-[![Automation](https://img.shields.io/badge/Workflow-Automation-10B981?style=for-the-badge)](#topics-i-explore)
-[![Testing](https://img.shields.io/badge/Testing-Learning-64748B?style=for-the-badge)](#how-i-work)
+<br/>
+
+[![AI experiments](https://img.shields.io/badge/AI-Experiments-8B5CF6?style=flat-square)](#projects)
+[![Automation](https://img.shields.io/badge/Automation-Workflows-0F766E?style=flat-square)](#projects)
+[![Engineering](https://img.shields.io/badge/Engineering-Evidence--led-475569?style=flat-square)](#how-i-work)
 
 </div>
 
 ---
 
-## Things I'm Exploring
+## The lab
 
-This is a personal hobby space for projects I build, test, take apart, and learn from. The repositories live in a GitHub organization simply to keep the projects together. **This is not a company or a commercial portfolio.**
+A personal space for building, testing, and understanding software with AI-assisted tools. Projects live together in this GitHub organization for practical learning and iteration.
+
+**This is a personal hobby and learning portfolio — not a company, agency, or commercial service.** Projects vary in maturity; descriptions below distinguish experiments from verified outcomes.
+
+## Projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top" bgcolor="#20233A">
-      <h3>🧠 ALPHA ENGINE</h3>
-      <strong>AI logic &amp; system ideas</strong>
-      <p>An ongoing personal project exploring decision logic, system architecture, and how different components can be kept separate.</p>
-      <sub>Experiments · Architecture · Version control</sub>
-    </td>
-    <td width="50%" valign="top" bgcolor="#17352F">
-      <h3>🔗 ALPHA CRAFTFLOW</h3>
-      <strong>Workflow automation</strong>
-      <p>Exploring n8n workflows and ways to automate repetitive tasks. Some ideas are prototypes or experiments rather than finished tools.</p>
-      <sub>n8n · Integrations · Workflow testing</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" bgcolor="#3A2920">
-      <h3>🎬 ALPHA CREATOR</h3>
-      <strong>Content &amp; AI experiments</strong>
-      <p>A project exploring trend discovery, content evaluation, AI-assisted generation, and the software around these ideas.</p>
-      <sub>Content ideas · Interfaces · Iteration</sub>
-    </td>
-    <td width="50%" valign="top" bgcolor="#202F45">
-      <h3>💬 ALPHA SOFIA</h3>
-      <strong>Chatbot &amp; conversational AI</strong>
-      <p>A separate set of experiments involving a Telegram chatbot, product concepts, and ideas around conversational memory and personality.</p>
-      <sub>Telegram · Chatbots · Experiments</sub>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### ALPHA ENGINE
+**AI logic & system architecture**
+
+Experiments in decision logic, component boundaries, and system architecture.
+
+<sub>Architecture · Experiments · Version control</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### ALPHA CRAFTFLOW
+**Workflow automation**
+
+Exploring n8n workflows, integrations, APIs, and repeatable automation patterns.
+
+<sub>n8n · APIs · Workflow testing</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ALPHA CREATOR
+**Content systems & AI experiments**
+
+Exploring trend discovery, content evaluation, AI-assisted generation, and interface workflows.
+
+<sub>Content concepts · Interfaces · Iteration</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### ALPHA SOFIA
+**Conversational AI**
+
+Separate experiments with a Telegram chatbot, product concepts, and conversational interaction.
+
+<sub>Telegram · Chatbots · Prototypes</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ALPHA Agent Orchestrator
+**Agent coordination**
+
+Exploring how larger tasks can be decomposed into smaller, reviewable steps.
+
+<sub>Agents · Orchestration · Evaluation</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### ALPHA Hamburg Mobility
+**Frontend delivery & technical verification**
+
+A case study in modern web experience delivery, CI/CD, deployment verification, security review, and evidence-led QA. The public portfolio documents only claims supported by available evidence.
+
+<sub>Frontend · CI/CD · Security · QA</sub>
+
+</td>
+</tr>
 </table>
-
-### Other projects
-
-| Project | What I'm exploring |
-|---|---|
-| **ALPHA Agent Orchestrator** | Coordinating AI agents and breaking larger tasks into smaller steps |
-| **ALPHA Hamburg Mobility** | Following a project roadmap and checking whether technical claims match verifiable results |
 
 ---
 
-## Topics I Explore
+## Featured case study
 
-- **AI and language models:** AI-assisted building, agent concepts, and conversational systems
-- **Automation:** n8n, APIs, webhooks, and connecting different tools
-- **Software projects:** system structure, interfaces, version control, and iterative changes
-- **Testing:** checking behavior, investigating errors, and making results reproducible
-- **Tools:** GitHub, Render, and other tools encountered while building these projects
+### Hamburg Mobility — Digital Experience & Delivery
 
-The technologies and depth of implementation differ from project to project. I'm learning as I go, and I use AI tools as part of that process.
+**Komplexe Mobilität. Klare Perspektiven.**
 
-## How I Work
+This case study documents a frontend project through the lens of implementation, release workflow, and technical verification. It separates visual presentation from production evidence and records limitations rather than presenting unverified claims as facts.
 
-- Try an idea and see what actually works.
-- Keep experiments separate from versions intended to remain stable.
-- Check results instead of assuming that something works because a description says so.
-- Record useful findings, limitations, and mistakes.
-- Improve projects in small, understandable steps.
+**Areas of investigation**
+- Responsive presentation and interface structure
+- CI and production deployment workflow
+- Security headers and content security policy
+- Accessibility and performance as explicit verification tasks
+- Release evidence, unresolved risks, and reproducibility
 
-## A Note About Project Status
+**Status discipline**
 
-These are personal projects at different stages: some are experiments, some have working parts, and others are still being explored. A repository name or project description does not automatically mean that a system is complete or production-ready.
+A successful merge, a successful deployment job, and a verified live experience are different claims. They are documented separately. Lighthouse, Core Web Vitals, and full WCAG AA verification remain open until evidence is available.
 
-I add details as I can verify them. Some repositories are private, so this page only gives a general overview.
+[Read the case study →](docs/HAMBURG-MOBILITY.md)
+
+> **Visuals:** No original production screenshots are included in this first pass. Concept mockups must be labelled as illustrative. Live screenshots and third-party assets will be added only after applicable publication rights have been reviewed.
+
+---
+
+## How I work
+
+1. **Build in small steps.** Keep experiments understandable and changes reviewable.
+2. **Verify instead of assuming.** A README claim is not proof that a system works.
+3. **Separate states.** Implemented, tested, verified, and live mean different things.
+4. **Record limitations.** Open risks and incomplete checks remain visible.
+5. **Protect boundaries.** Public portfolio content is separate from production repositories, infrastructure, credentials, and private configuration.
+
+## Evidence labels
+
+| Label | Meaning |
+|---|---|
+| **IMPLEMENTED** | The change exists in the inspected code or artifact. |
+| **TESTED** | A named test was run; its scope and result should be recorded. |
+| **VERIFIED** | The specific behavior was independently checked with reproducible evidence. |
+| **LIVE** | The deployed production behavior was checked at the stated target and time. |
+| **OPEN** | The check is incomplete, blocked, or not yet evidenced. |
+
+These labels are not badges of prestige; they describe the level of evidence available.
+
+## Rights, attribution & scope
+
+This repository is an independent portfolio of personal learning projects. It does not claim endorsement, affiliation, or authorization by any organization or website operator.
+
+Project names may be used descriptively to identify the subject of a case study. Logos, photographs, original website copy, screenshots, and other third-party materials are not assumed to be reusable merely because they are publicly accessible. Use only original, licensed, or explicitly authorized assets, and record their source and permitted use.
+
+The independent-project notice does not replace permission where permission is legally required.
+
+## Project maturity
+
+Projects are at different stages: some are experiments, some contain working parts, and some are still being explored. A repository name or project description does not mean a system is complete, secure, accessible, or production-ready.
+
+Technical details are added when they can be supported. Some project repositories may be private, so this overview intentionally avoids exposing internal implementation details.
 
 ---
 
 <div align="center">
 
-**null/prophet/dir**  
-*Personal projects. Curious experiments. Learning by doing.*
+**null/prophet/dir**
+
+*Personal projects. Curious experiments. Evidence over assumption.*
 
 </div>
